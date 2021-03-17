@@ -12,10 +12,6 @@ myarr.index('green')
 print(  myarr.pop()  )
 
 myarr.pop()
-myarr.pop()
-myarr.pop()
-myarr.pop()
-myarr.pop()
 
 print(  myarr.pop()  )
 
