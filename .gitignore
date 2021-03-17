@@ -7,3 +7,15 @@
 
 !readme.txt
 
+!/7-Lists_and_Collections/
+/7-Lists_and_Collections/*
+!/7-Lists_and_Collections/Lists-Collections-Demo/
+
+
+!GUI_Sliders/
+
+
+
+
+
+# cupdate() { git add . ; git commit -m "quick code update" ; git push origin main ; }
