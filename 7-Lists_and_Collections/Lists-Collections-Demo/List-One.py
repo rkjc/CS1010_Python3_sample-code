@@ -1,21 +1,35 @@
 print("------------------------\nList-One.py\n------------------------")
 
-myarr = ['happy', 'sad', 'red', 'orange','green', 'red', 'california', 'red', 'green']
-print( myarr )
-print(  myarr[4]   )
+bob = ['happy','sad', 'red', 'orange','green', 'red', 'california', 'red', 'green']
+print( bob )
+print(  bob[4]   )
 
-myarr.append('joy')
-print( myarr )
 
-myarr.index('green')
 
-print(  myarr.pop()  )
+bob = 34
+print( bob )
+print( bob[0] )
 
-myarr.pop()
 
-print(  myarr.pop()  )
 
-myarr.sort()
+# myarr.append('joy')
+# print( myarr )
 
-print( myarr )
-print("------------------------")
+
+
+# myarr.sort()
+# print( myarr )
+
+# myarr.reverse()
+# print( myarr )
+
+# print("------------------------")
+
+
+# # myarr.index('green')
+
+# # print(  myarr.pop()  )
+
+# # myarr.pop()
+
+# # print(  myarr.pop()  )
