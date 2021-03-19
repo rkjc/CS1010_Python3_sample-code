@@ -1,17 +1,23 @@
 
+print("------------------------")
 arr = ['happy','sad', 'red', 'orange','green', 'red']
 
-print(arr)
-
-print( arr[6] )
-
-print( arr[0] )
-print( arr[1] )
-print( arr[2] )
-print( arr[3] )
-
 count = 0
-while(count < 10):
+while(count < len(arr) ):
     print( arr[count] )
     count += 1
 
+print("------------------------")
+
+print(len(arr))
+arr.append('moon')
+print(len(arr))
+
+print("------------------------")
+
+count = 0
+while(count < len(arr) ):
+    print( arr[count] )
+    count += 1
+
+print("------------------------")
