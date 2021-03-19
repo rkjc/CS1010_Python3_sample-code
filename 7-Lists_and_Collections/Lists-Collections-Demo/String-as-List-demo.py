@@ -14,11 +14,19 @@ print()
 chewy = "sTr1ng5 d4tA with SpAcES"
 print( chewy )
 
-bob = chewy.lower()
 
+bob = chewy.lower()
 print( bob )
+
 print( chewy.upper() )
 print( chewy )
+
+myentry = input('enter an integer  ')
+if( myentry.isnumeric() ):
+    myint = int(myentry)
+    print(myint + 43)
+else:
+    print("not an integer")
 
 
 
