@@ -15,8 +15,6 @@ print(  myarr.pop()  )
 myarr.append('joy')
 print( myarr )
 
-
-
 myarr.sort()
 print( myarr )
 

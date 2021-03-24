@@ -17,6 +17,7 @@ print("----------------")
 
 # Ex2-D.  Insert "33" after the "83" in the list, and print out the list.
 
+
 # Ex2-E.  Print out how many '2's are in the list.
 
 # Ex2-F.  Sort the list in ascending order and print out the list.

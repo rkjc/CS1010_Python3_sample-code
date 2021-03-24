@@ -13,6 +13,7 @@ while(count < len(num_list)):
     count += 1
 
 
+
 #     (a)  print out each of the numbers from the List on the same line.
 
 #     (b)  add up all the numbers in the List and print out the answer on a separate line.
