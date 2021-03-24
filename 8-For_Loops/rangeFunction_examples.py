@@ -1,5 +1,7 @@
 
 # basic use of a range statement in a for loop
+# range( A )
+# create List of integers that starts at zero and counts up to but not including integer A
 for count in range(5):
     print(count)
 
@@ -31,6 +33,13 @@ for count in range(1, 9, 2):
 
 print('---------------------')
 
-# three attribute range statement in a for loop can also decriment
+# three attribute range statement can also decriment
 for count in range(12, 3, -2):
     print(count)
+
+print('---------------------')
+# NOTE
+# range(int) does not generate a list
+# it is a function that acts like a list of integers when used as a list
+# when printed it just prints the function signature
+print( range(7) )
