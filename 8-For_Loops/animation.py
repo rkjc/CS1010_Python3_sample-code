@@ -1,8 +1,13 @@
-import os
+import time
 
 
-print("lksadhfgiohpihoyiohpswdfgoiph\nlkajsdfhkjih\n")
+for a in range(10):
+    for x in range(50):
+        print()
+    print("hey there " + str(a) + " " + ('*' * a))
+    for x in range(5):
+        print()
+    time.sleep(0.5)
 
 
-os.system('cls' if os.name == 'nt' else 'clear')
-os.system('clear')
+print("did the screen clear?")
