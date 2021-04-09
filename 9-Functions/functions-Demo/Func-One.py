@@ -13,6 +13,7 @@ def myAdd(var1, var2):
 def printStar(num):
     print("*" * num)
 
+# --------------------------
 
 print(random.random())
 
