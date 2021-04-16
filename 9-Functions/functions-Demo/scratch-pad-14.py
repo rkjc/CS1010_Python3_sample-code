@@ -1,21 +1,12 @@
-var1 = 0
-var2 = 99
+import tkinter
 
+groot = tkinter.Tk()
 
-def my_var_changer():
-    global var2
-    var1 = 37
-    var2 = 13
-    global var3
-    var3 = 8547465
+groot.geometry('450x200')
+groot.configure(bg="orange")
+groot.title("CS1010 - GUI")
 
+myWidget = tkinter.Label(groot, text="welcome to GUI programming")
+myWidget.pack()
 
-print("var1 before", var1)
-print("var2 before", var2)
-
-
-my_var_changer()
-
-print("var1 after", var1)
-print("var2 after", var2)
-print(var3)
+groot.mainloop()
