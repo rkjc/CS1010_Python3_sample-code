@@ -1,6 +1,7 @@
 import tkinter as tk
 
 groot = tk.Tk()
+groot.config("300x700")
 
 def change_geom():
     twidth = spin_w.get()

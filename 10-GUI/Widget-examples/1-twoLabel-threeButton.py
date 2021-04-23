@@ -3,19 +3,16 @@ import tkinter
 butt1 = False
 butt2 = False
 
-
 def thisButton():
     label_1.configure(text="you pushed the button 1")
     global butt1
     butt1 = True
-
 
 def thatButton():
     other_label.configure(text="that was button 2")
     other_label.configure(foreground="blue", background="yellow")
     global butt2
     butt2 = True
-
 
 def daFunctionDude():
     global butt1
