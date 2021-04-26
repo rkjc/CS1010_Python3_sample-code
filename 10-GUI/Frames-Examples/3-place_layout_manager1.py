@@ -4,7 +4,7 @@ import tkinter as tk
 app = tk.Tk()
 app.geometry('300x300')
  
-labelA = tk.Label(app, text = "Label (0, 0)", fg="blue", bg="#FF0")
+labelA = tk.Label(app, text = "Label (0, 0)", fg="blue", bg="#FF0") #color using Hex values
 labelB = tk.Label(app, text = "Label (20, 20)", fg="green", bg="#300")
 labelC = tk.Label(app, text = "Label (40, 50)", fg="black", bg="#f03")
 labelD = tk.Label(app, text = "Label (0.5, 0.5)", fg="orange", bg="#0ff")

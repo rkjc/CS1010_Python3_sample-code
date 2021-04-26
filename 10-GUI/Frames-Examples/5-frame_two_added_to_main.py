@@ -5,11 +5,11 @@ mainwindow.geometry("300x400")
  
 myFrameA = tk.Frame(mainwindow, bg="green")
 #myFrameA.pack()
-myFrameA.place(x=0, y=0, relwidth=1, relheight=1)
+myFrameA.place(x=0, y=0, relwidth=1, relheight=0.5)
  
 myFrameB = tk.Frame(mainwindow, bg="cyan")
 #myFrameB.pack()
-myFrameB.place(x=0, rely=0.5, relwidth=1, relheight=1) 
+myFrameB.place(x=0, rely=0.5, relwidth=1, relheight=0.5)
  
 myButt_1A = tk.Button(myFrameA, bg='orange', text='button one')
 myButt_1A.pack()
