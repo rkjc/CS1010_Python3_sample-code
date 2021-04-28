@@ -10,7 +10,7 @@ def doThis(event):
 def doThat(event):
     lbl_1.config(text="button is up", bg="lightgreen")
 
-lbl_1 = tk.Label(root, text="Click the left mouse button")
+lbl_1 = tk.Label(root, height=3, text="Click the left mouse button")
 lbl_1.pack(fill=tk.BOTH)
 
 root.bind( "<Button-1>", doThis)

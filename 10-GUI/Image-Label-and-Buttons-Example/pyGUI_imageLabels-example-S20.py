@@ -36,7 +36,6 @@ label_1.grid(row=1, rowspan=3, column=1)
 label_2 = tkinter.Label(root, text="select an image")
 label_2.grid(row=0, column=1)
 
-
 MyButton1 = tkinter.Button(root, image=im1a, text="b1", bg="blue",width=100, height=100, command = lambda: doButton1())
 MyButton1.grid(row=1, column=0)
 

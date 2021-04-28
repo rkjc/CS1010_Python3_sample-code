@@ -13,10 +13,10 @@ def doButton():
    colorOn = not colorOn
    if colorOn == True:
       L1.config(text="button is red")
-      B1.config(fg='black', bg='red', highlightbackground='red', activebackground='red')
+      B1.config(foreground='black', background='red', highlightbackground='red', activebackground='red')
    else:
       L1.config(text="button is blue")
-      B1.config(bg='blue', fg='white', highlightbackground='blue', activebackground='blue')
+      B1.config(bg='blue', fg='white', highlightbackground='blue', activebackground='blue', activeforeground='white')
 
 main = tk.Tk()
 main.geometry("300x200")
