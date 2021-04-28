@@ -25,6 +25,8 @@ my_checkbutton_2 = tk.Checkbutton(groot, text="Checkbutton 2", var=my_bool2)
 my_checkbutton_3 = tk.Checkbutton(groot, text="Checkbutton 3", var=my_bool3)
 
 # set which button is pre-checked (can be more than one)
+B2.pack()
+
 my_checkbutton_1.select()
 
 my_checkbutton_1.pack()
@@ -35,6 +37,6 @@ label_3.pack()
 label_4.pack()
 label_5.pack()
 
-B2.pack()
+
 
 groot.mainloop()

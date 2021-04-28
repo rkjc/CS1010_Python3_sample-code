@@ -27,7 +27,4 @@ for x in range(12):
     tempRadButt.pack()
 
 
-
-
-
 groot.mainloop()
