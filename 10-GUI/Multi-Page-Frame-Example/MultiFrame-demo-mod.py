@@ -43,10 +43,9 @@ bottom.columnconfigure(0, weight=1)
 bottom.rowconfigure(0, weight=1)
 
 # red Frame ----------------------------------------------------
-redFrame = Frame(bottom, bg="red", padx=5, pady=5, width=300, height=300)
+redFrame = Frame(bottom, bg="red")
 redFrame.grid_propagate(False)
-redFrame.grid(row=0, column=0)
-#redFrame.grid(row=0, column=0, padx=(10,60), pady=(10,60))
+redFrame.grid(row=0, column=0, sticky=N+W+S+E)
 redFrame.columnconfigure(0, weight=1)
 redFrame.rowconfigure(0, weight=1)
 
