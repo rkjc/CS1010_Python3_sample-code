@@ -1,5 +1,7 @@
 import tkinter
 
+groot = tkinter.Tk()
+
 butt1 = False
 butt2 = False
 
@@ -22,9 +24,6 @@ def daFunctionDude():
         other_label.configure(text="Also reset")
         butt1 = False
         butt2 = False
-
-
-groot = tkinter.Tk()
 
 label_1 = tkinter.Label(groot, text="A Label")
 label_1.pack()
