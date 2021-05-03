@@ -15,7 +15,8 @@ button_1 = tkinter.Button(groot, text="A Button", command=doButton)
 # windows and Linux need the 'background' setting
 # MacOs needs the 'highlightbackground' setting (MacOs Big Sur may have broken this)
 # Linux needs the 'activebackground' setting to handle mouse-overs
-button_1.configure(background = 'cyan', highlightbackground = 'cyan', activebackground = 'cyan')
+bColor1 = 'cyan'
+button_1.configure(background = bColor1, highlightbackground = bColor1, activebackground = bColor1)
 button_1.pack()
 
 groot.mainloop()
