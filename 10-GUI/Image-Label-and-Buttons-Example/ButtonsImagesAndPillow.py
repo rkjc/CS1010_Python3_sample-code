@@ -6,7 +6,7 @@ from PIL import ImageTk, Image
 # https://github.com/python-pillow/Pillow
 
 root = Tk()
-root.geometry("600x600")
+root.geometry("500x400")
 # root.columnconfigure(0, minsize=100)
 # root.columnconfigure(1, minsize=200)
 
@@ -19,15 +19,13 @@ def doButton1():
 def doButton2():
     label_1.config(image = kat_pic_resize_2)
     label_1.tkraise()
-    root.after(1000, revert_all)
+    root.after(1000, revert_all)  # time delay code
 
 def revert_all():
     label_1.config(image="")
 
 
-
-
-#images have to be .png, .jpg does not work.
+#Using Pillow library alows use of jpg and other image formats
 
 space_img_full = Image.open("Space_Woman.png")
 space_pic_full = ImageTk.PhotoImage(space_img_full)

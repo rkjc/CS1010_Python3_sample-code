@@ -8,7 +8,8 @@ root.columnconfigure(0, minsize=100)
 root.columnconfigure(1, minsize=200)
 
 def doButton1():
-    label_1.config(image=img01_size_2)
+    #label_1.config(image=img01_size_2)
+    label_1.config(image=img01)
     label_2.config(text="Image One")
 
 def doButton2():
@@ -26,10 +27,10 @@ img01_size_6 = img01.subsample(6)
 img01_size_2 = img01.subsample(2)
 
 img2 = tkinter.PhotoImage(file="vigo_700.png")
-im2a = img2.subsample(5)
+im2a = img2.subsample(4)
 
 img3 = tkinter.PhotoImage(file="Enterprise_700.png")
-im3a = img3.subsample(5)
+im3a = img3.subsample(4)
 
 label_1 = tkinter.Label(root, text="images")
 label_1.grid(row=1, rowspan=3, column=1)
